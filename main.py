@@ -31,7 +31,7 @@ def plus1():
     
 st.title(f"{st.session_state.counter}")
 
-st.button("                          +1                          ", on_click=plus1)
+st.button("+1", on_click=plus1)
     
 if st.button("Reset"):
     st.session_state.reset_confirm = True
